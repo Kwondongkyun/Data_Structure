@@ -24,7 +24,7 @@ int is_empty(DequeType* q) {
 
 int is_full(DequeType* q) {
 	return ((q->rear + 1) % MAX_QUEUE_SIZE == q->front);
-}
+} 
 
 void deque_print(DequeType* q) {
 	printf("DEQUE(front = %d rear = %d) = ", q->front, q->rear);
