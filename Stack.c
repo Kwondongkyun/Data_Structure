@@ -31,7 +31,7 @@ void push(element item) {
 	}
 	else stack[++top] = item;                     // After increase top(index value) -> item insert
 }
-
+ 
 
 :: Delete data in stack
 element pop() {
