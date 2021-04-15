@@ -69,7 +69,7 @@ int dequeue(QueueType* q) {
 	return item;
 }
 
-
+ 
 // main method
 int main(void) {
 	int item = 0;		// Put data that Dequeue in item variable
