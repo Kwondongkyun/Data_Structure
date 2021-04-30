@@ -1,6 +1,6 @@
 1. Array linked list
 
-#include <stdio.h>
+#include <stdio.h> 
 #include <stdlib.h>
 
 #define MAX_LIST_SIZE 100
