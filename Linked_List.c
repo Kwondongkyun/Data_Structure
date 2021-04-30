@@ -32,7 +32,7 @@ element get_entry(ArrayListType* L, int pos) {
 		error("위치 오류");
 	return L->array[pos];
 }
-
+ 
 void print_list(ArrayListType* L) {
 	int i;
 	for (i = 0; i < L->size; i++) {
